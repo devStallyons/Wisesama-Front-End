@@ -1,0 +1,385 @@
+@import url('https://fonts.cdnfonts.com/css/sweet-sans-pro');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+section.report {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.report .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+  background: none;
+  box-shadow: none;
+}
+.report .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8.MuiGrid-grid-md-12 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.form_bg {
+  width: 80%;
+  background: conic-gradient(
+    from 169.71deg at 37.5% 31.16%,
+    #7c7b7b 0deg,
+    rgba(255, 255, 255, 0) 50.63deg,
+    #7c7b7b 155.62deg,
+    rgba(255, 255, 255, 0) 273.75deg,
+    #7c7b7b 360deg
+  );
+  border-radius: 10px;
+  padding: 2px;
+  left: 50px;
+  position: relative;
+}
+
+.form_bg h2.filereport {
+  margin: 0;
+}
+
+.formsec {
+  box-sizing: border-box;
+  background: #2e2e2e;
+  border-radius: 10px;
+  position: relative;
+}
+
+.reportimg img {
+  width: 115%;
+  position: relative;
+  top: 35px;
+  z-index: 1;
+  right: 6%;
+}
+
+h2.filereport {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+span.scamreport {
+  color: #b62e2e;
+}
+
+p.formp {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+  z-index: 1;
+  padding-left: 32px;
+  text-align: left;
+}
+
+.formrep {
+  margin-top: 24px;
+  padding-left: 32px;
+  text-align: left;
+}
+
+label.scamSelect {
+  display: block;
+  text-align: left;
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+select#floatingSelect {
+  margin-top: 16px;
+  box-sizing: border-box;
+  width: 95%;
+  background: #2e2e2e;
+  border: 1px solid #7b7b7b;
+  border-radius: 5px;
+  color: #666666;
+  padding-left: 16px;
+  padding-top: 16px;
+  font-family: 'Be Vietnam Pro';
+  padding-bottom: 16px;
+}
+
+#floatingSelect option {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+  padding-left: 16px;
+}
+
+label.addhead {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+input#addInput {
+  box-sizing: border-box;
+  width: 95%;
+  border: 1px solid #7b7b7b;
+  border-radius: 5px;
+  background: #2e2e2e;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #666666;
+  margin-top: 15px;
+  font-family: 'Be Vietnam Pro';
+}
+
+#addInput::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.formpay {
+  margin-top: 16px;
+}
+
+label.deshead {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+textarea#desInput {
+  box-sizing: border-box;
+  width: 95%;
+  border: 1px solid #7b7b7b;
+  border-radius: 5px;
+  background: #2e2e2e;
+
+  color: #666666;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 28px;
+  font-family: 'Be Vietnam Pro';
+}
+
+#desInput::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.report-btn {
+  margin-top: 24px;
+  padding-bottom: 34px;
+  margin-left: 5px;
+}
+
+.report-btn
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium {
+  background: #b62e2e;
+  border-radius: 10px;
+  padding: 12px 24px;
+}
+
+span.report-gradient {
+  width: 587px;
+  height: 587px;
+  position: absolute;
+  left: 2.6%;
+  right: 57.82%;
+  top: 35.33%;
+  bottom: 0.94%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+}
+
+span.report-gradient1 {
+  height: 587px;
+  width: 587px;
+  border-radius: 0px;
+  position: absolute;
+  left: 38.07%;
+  right: 31.35%;
+  top: 35.33%;
+  bottom: 48.53%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #8a106f 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+}
+
+span.report-gradient2 {
+  height: 587px;
+  width: 587px;
+  left: 1195px;
+  top: 267px;
+  border-radius: 0px;
+  position: absolute;
+  left: 1.24%;
+  right: 7.19%;
+  top: 1.17%;
+  bottom: 18.69%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+}
+
+@media screen and (min-width: 352px) and (max-width: 767px) {
+  .formrep {
+    padding-right: 30px;
+  }
+
+  section.report {
+    margin-top: 0px;
+  }
+  select#floatingSelect {
+    width: 100%;
+    margin-top: 16px;
+    box-sizing: border-box;
+    background: #2e2e2e;
+    border: 1px solid #7b7b7b;
+    border-radius: 5px;
+    color: #666666;
+    padding-left: 16px;
+    height: 50px;
+  }
+  label.addhead {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  input#addInput {
+    width: 100%;
+  }
+  .formpay {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  textarea#desInput {
+    width: 100%;
+  }
+
+  .form_bg {
+    width: 100%;
+    left: -5px;
+  }
+
+  .reportimg img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  p.formp {
+    left: 12px;
+  }
+
+  span.report-gradient {
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+    position: absolute;
+    left: -46%;
+    top: 41.92%;
+    bottom: 0.94%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+  }
+
+  span.report-gradient1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 0px;
+    position: absolute;
+    left: -71%;
+    right: 0%;
+    top: 70.33%;
+    bottom: 48.53%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #8a106f 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+  }
+
+  span.report-gradient2 {
+    height: 500px;
+    width: 500px;
+    left: 1195px;
+    top: 267px;
+    border-radius: 0px;
+    position: absolute;
+    left: -70%;
+    right: 0%;
+    top: 0;
+    bottom: 18.69%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+  }
+  .report .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8.MuiGrid-grid-md-12 {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .report .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8.MuiGrid-grid-md-12 {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  span.report-gradient1 {
+    left: 0% !important;
+  }
+}

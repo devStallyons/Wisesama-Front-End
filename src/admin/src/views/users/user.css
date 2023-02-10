@@ -1,0 +1,45 @@
+.my_datepicker {
+  width: 250px;
+  margin: 20px;
+  background: #eeeeee;
+  align-self: flex-end;
+  border-radius: 25px;
+  margin-top: 19px;
+  margin-right: 245px;
+}
+
+.react-datepicker__input-container input {
+  background: #eeeeee !important;
+  outline: none !important;
+  border: none !important;
+  /* border: 2px solid black !important; */
+}
+.sc-fEXmlR.kNUuTe.rdt_TableHeader {
+  display: none;
+}
+.sc-dmctIk.WQNxq {
+  overflow: hidden;
+}
+.sc-hHTYSt.dcNXoV {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .my_datepicker {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    padding-right: 5vw;
+  }
+}
+
+.datatable-mainWrapper > div:nth-child(4) {
+  overflow: visible !important;
+  z-index: 99 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .datatable-mainWrapper > div:nth-child(4) {
+    overflow: auto !important;
+  }
+}

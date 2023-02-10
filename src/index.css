@@ -1,0 +1,406 @@
+/* @import url('https:/fonts.cdnfonts.com/css/sweet-sans-pro'); */
+/* @import url('https:/fonts.cdnfonts.com/css/clash-display'); */
+/* @import url('https:/fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); */
+/* @import url('https:/fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap'); */
+/* @import url('https:/fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); */
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Black.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-BlackItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-BoldItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Italic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-BoldItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Thin.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-ThinItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto-MediumItalic.ttf') format('ttf');
+}
+
+/* be vietnam pro */
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Black.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-BlackItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-BoldItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-ExtraBold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-ExtraBoldItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-ExtraLight.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Italic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Light.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-LightItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-MediumItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-SemiBold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-SemiBoldItalic.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-Thin.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: local('Be Vietnam Pro'),
+    url('./fonts/BeVietnamPro-ThinItalic.ttf') format('ttf');
+}
+
+/* Inter */
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Black.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-ExtraBold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-ExtraLight.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Light.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-SemiBold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./fonts/Inter-Thin.ttf') format('ttf');
+}
+
+/* Clash display */
+
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplayRegular.woff') format('woff');
+}
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 200;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplayExtralight.woff') format('woff');
+}
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplayLight.woff') format('woff');
+}
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplayMedium.woff') format('woff');
+}
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplaySemibold.woff') format('woff');
+}
+@font-face {
+  font-family: clash display;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Clash Display'),
+    url('./fonts/ClashDisplayBold.woff') format('woff');
+}
+
+/* sweet sans */
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProHairline.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProHairlineItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 150;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProExThin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 150;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProExThinItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProThin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProThinItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 250;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProExLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 250;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProExLightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProLightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProMediumItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProBoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProHeavy.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sweet Sans Pro';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Sweet Sans Pro'),
+    url('./fonts/SweetSansProHeavyItalic.woff') format('woff');
+}
+
+div#root {
+  overflow: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #1a1a1a;
+}
+
+.main_p {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0 !important;
+}
+
+body {
+  margin: 0;
+}
+
+.css-1h77wgb > div {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-left: 0 !important;
+}
+
+.css-1h77wgb {
+  align-items: center;
+  margin-left: 0 !important;
+  width: 100% !important;
+  margin-top: 0 !important;
+  padding-top: 15px;
+}
+
+.css-b1884d {
+  margin: 0 !important;
+  align-items: center;
+  display: block;
+}
+
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.language-switcher {
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+  padding-top: 0 !important;
+} */
+
+.profile {
+  padding-top: 0 !important;
+}

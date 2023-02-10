@@ -1,0 +1,671 @@
+@import url('https://fonts.cdnfonts.com/css/sweet-sans-pro');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.header1 {
+  background: #1a1a1a;
+  width: 100%;
+}
+
+.header1 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true.MuiGrid-grid-lg-4 {
+  margin-top: 30px;
+}
+
+.header1 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6.MuiGrid-grid-lg-4 {
+  margin-top: 30px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+  background: none;
+  box-shadow: none;
+}
+
+.home_pg img.Wisesamalogo {
+  width: 60%;
+}
+a.home_pg {
+  padding-right: 50px;
+}
+
+a.report_pg {
+  padding-right: 50px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.language-switcher {
+  margin-left: 25px;
+}
+
+label#demo-select-small {
+  display: none;
+}
+
+div#demo-simple-select {
+  color: #ffffff;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-sizeSmall {
+  background: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 0px;
+  border-top: none;
+  position: revert;
+}
+
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 10px;
+}
+span.info-icon {
+  margin-left: 13px;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined {
+  right: 0%;
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  top: 10px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+span.br_langna {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
+img.br_lgfg {
+  padding-right: 8px;
+  margin-bottom: -3px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: rgba(25, 118, 210, 0.08);
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
+div#demo-select-small {
+  color: white;
+}
+
+.language-switcher .MuiFormControl-root {
+  margin-top: 18px;
+}
+
+#app {
+  border: 3px solid #e3e3e3;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  background: #1e1e1e;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#circle-avatar {
+  display: grid;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffbd30;
+  place-items: center;
+}
+
+#circle-avatar span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.profile {
+  justify-content: flex-end;
+  padding-top: 15px !important;
+  display: flex;
+  /* display: none !important; */
+}
+
+img.MuiAvatar-img.css-1pqm26d-MuiAvatar-img {
+  cursor: pointer;
+}
+
+.header-2 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {
+  padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .sc-iqcoie.kZqnfX.react-simple-widget.popup-menu-options.undefined {
+    top: 72px !important;
+    left: 1213px !important;
+  }
+}
+
+span.close-icon {
+  top: 26px !important;
+  padding-left: 20px !important;
+  margin-top: 10px !important;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  color: #ffffff;
+}
+
+section.main-header {
+  width: 100%;
+  border-radius: 0px;
+  background: linear-gradient(90.08deg, #d0beff -15.56%, #6132da 67.64%);
+  margin-top: 28px;
+}
+
+p.info-text {
+  font-family: 'Clash Display', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1px;
+  color: #ffffff;
+  padding-left: 12px;
+}
+
+.header-2
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.info_head {
+  display: flex;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.head-close {
+  text-align: right;
+  margin-right: 8px;
+}
+
+.header1 nav.nav-link a {
+  font-family: 'Clash Display', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: -0.5px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  padding-right: 42px;
+}
+
+.header1 nav.nav-link a:active {
+  background: linear-gradient(276.7deg, #340062 -26.85%, #d0aaff 178.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-decoration: underline !important;
+}
+.activeLink {
+  background: green;
+}
+h5.profile_text {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  margin-top: 24px !important;
+  color: #ffffff;
+}
+
+p.profile_text2 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 32px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+.card-body {
+  width: 100% !important;
+  height: auto;
+}
+
+h5.profile_text a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p.profile_text2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.signout {
+  margin-bottom: 0px;
+  margin-top: 16px;
+  margin-left: 22px;
+}
+
+.exit-icon svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  width: 24px;
+  height: 24px;
+  color: #ff5a5a;
+}
+
+button.signout-btn {
+  border: none;
+  background: none;
+  /* position: absolute; */
+  width: 100%;
+  /* height: 55px; */
+  left: 0;
+  top: 130px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff5a5a;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+}
+button.joinbtn {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding: 13px 45px;
+  margin-top: 13px;
+  background: linear-gradient(
+    262.87deg,
+    #712eff -22.62%,
+    rgba(101, 98, 255, 0) 160.73%
+  );
+  border-radius: 5px;
+  border: none;
+}
+small.br_exit {
+  padding-left: 20px !important;
+  margin-top: 6px;
+}
+.MuiBox-root.css-r3ax1p {
+  display: none;
+}
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary {
+  display: none;
+}
+
+.MuiDrawer-root.MuiDrawer-modal.MuiModal-root {
+  display: none;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm {
+  max-width: 90%;
+  width: 90%;
+  background: #1a1a1a;
+  align-items: center;
+}
+
+img.br_conimg1 {
+  width: 13%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+img.br_conimg2 {
+  width: 17%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.closepopup {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.closepopup svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  width: 40px;
+  height: 40px;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing {
+  display: block;
+  padding: 0 !important;
+}
+
+.br_google {
+  padding-top: 40px;
+}
+.br_google img {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+}
+
+.br_git {
+  margin-left: 0px !important;
+}
+
+.br_git img {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+}
+.conspace {
+  margin-top: -35px;
+
+  margin-left: 0px !important;
+}
+.conspace h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.0667px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+  img.mainimg {
+    width: 976px;
+    margin: 0 auto;
+  }
+  .homeimg {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 352px) and (max-width: 767px) {
+  header.header {
+    margin: 0 -8px;
+  }
+
+  .main-header .header-2 {
+    margin: 0px !important;
+  }
+
+  .header .header1 nav.nav-link {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .header1 section.main-header {
+    background: linear-gradient(90.08deg, #d0beff -15.56%, #6132da 67.64%);
+    margin: 0 !important;
+  }
+
+  .header-2
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+    display: block !important;
+    text-align: start;
+    padding: 5px;
+  }
+
+  .header-2 span.info-icon {
+    bottom: 0;
+    display: inline;
+    left: -5px;
+    margin: 0 !important;
+    position: relative;
+    right: 0;
+    top: 0px;
+    z-index: 1;
+  }
+
+  p.info-text {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-left: 15%;
+    transform: translateY(-35px);
+    text-align: center;
+    z-index: 1;
+    top: 93%;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.head-close {
+    left: 0px !important;
+    position: relative;
+    top: 0px;
+    width: 14px;
+    right: 0px !important;
+    transform: translateX(135px);
+    cursor: pointer;
+  }
+
+  .sc-iqcoie.kZqnfX.react-simple-widget.popup-menu-options.undefined {
+    margin-top: 50px !important;
+  }
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true.MuiGrid-grid-lg-2 {
+    display: none;
+  }
+
+  .br_mbhead .MuiGrid-root.MuiGrid-container {
+    display: flex;
+    flex-direction: unset !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+  }
+
+  .br_mbhead .MuiGrid-container {
+    margin-left: 0 !important;
+  }
+
+  .br_mbhead .MuiGrid-container .MuiGrid-root.MuiGrid-item:nth-child(1) {
+    width: 67% !important;
+    flex-basis: 50%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .br_mbhead
+    .MuiGrid-container
+    .MuiGrid-root.MuiGrid-item:nth-child(1)
+    a.home_pg {
+    padding: 0 !important;
+    display: inline-block;
+  }
+
+  .br_mbhead
+    .MuiGrid-container
+    .MuiGrid-root.MuiGrid-item:nth-child(1)
+    img.Wisesamalogo {
+    width: 100%;
+  }
+
+  .header1 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6.MuiGrid-grid-lg-4 {
+    margin-top: 30px;
+  }
+
+  .br_mbhead .MuiGrid-container .MuiGrid-root.MuiGrid-item:nth-child(4) {
+    flex-basis: 25.666667%;
+  }
+
+  .br_mbhead .profile {
+    margin: 0 !important;
+    display: inline-block !important;
+    padding: 0 !important;
+    margin-left: 15px !important;
+    margin-bottom: 30px !important;
+  }
+  .br_mbhead .profile img.MuiAvatar-img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .br_mbhead .App .MuiBox-root {
+    margin: 0 !important;
+  }
+
+  .header
+    .header-2
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.info_head.css-yayo80 {
+    text-align: start;
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  .main-header .header-2 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2 {
+    margin: 0 !important;
+    align-items: center;
+  }
+
+  .header-2 .MuiGrid-grid-xs-8 .MuiPaper-root.MuiPaper-elevation p.info-text {
+    bottom: 0;
+    display: inline;
+    padding-left: 12px;
+    position: relative;
+    top: -6px;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm {
+    height: 450px;
+  }
+
+  img.br_conimg1 {
+    width: 28%;
+  }
+
+  .br_google {
+    padding-top: 22px;
+  }
+
+  .br_google img {
+    width: 99%;
+    height: auto;
+  }
+
+  .conspace {
+    margin-top: -35px;
+  }
+
+  .br_git img {
+    width: 100%;
+    height: auto;
+  }
+
+  img.br_conimg2 {
+    width: 45%;
+  }
+
+  button.joinbtn {
+    padding: 10px 12px;
+    min-width: 160%;
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home_pg img.Wisesamalogo {
+    width: 100%;
+  }
+  .language-switcher .MuiFormControl-root {
+    margin-left: 60px;
+    margin-top: 27px;
+    align-items: center;
+  }
+
+  .header .header1 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {
+    max-width: 20%;
+  }
+
+  .profile {
+    justify-content: center;
+    padding-top: 15px;
+    display: flex;
+  }
+
+  .App {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .App .MuiBox-root {
+    margin-bottom: 0px !important;
+  }
+
+  header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionDynamic {
+    background: none;
+    box-shadow: none;
+    display: flex;
+  }
+
+  .App.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular {
+    padding-left: 0px !important;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.language-switcher {
+    margin-right: 0px !important;
+  }
+
+  .header1 .MuiContainer-root.MuiContainer-maxWidthLg.br_mbhead {
+    height: 110px;
+  }
+
+  .header-2
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.head-close {
+    margin-right: -5px !important;
+  }
+
+  .main-header .header-2 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {
+    max-width: 47%;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm {
+    height: auto;
+  }
+
+  .MuiDialogActions-root.MuiDialogActions-spacing {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .br_google {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .br_google img {
+    width: 97%;
+    height: 35%;
+  }
+  .conspace {
+    margin-top: -40px;
+  }
+  .br_git img {
+    width: 100%;
+    height: 35%;
+    margin-top: -15px;
+  }
+  img.br_conimg1 {
+    width: 20% !important;
+  }
+  img.br_conimg2 {
+    width: 23% !important;
+  }
+}

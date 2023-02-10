@@ -1,0 +1,61 @@
+.dashboardMainPageTable {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.dashboardMainPageTable table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5px 20px 5px;
+}
+
+.dashboardMainPageTable table thead,
+.dashboardMainPageTable table tbody,
+.dashboardMainPageTable table tfoot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardMainPageTable table thead tr,
+.dashboardMainPageTable table tbody tr {
+    transition: 0.2s ease-in-out !important;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dashboardMainPageTable table tbody tr:nth-child(even) {
+    background: #f7f8fd;
+    padding: 10px 5px;
+}
+
+.dashboardMainPageTable table tbody tr:hover {
+    background: #eceef7;
+}
+
+.dashboardMainPageTable table thead tr th,
+.dashboardMainPageTable table tbody tr td {
+    /* border: 1px solid #dedfe3; */
+    padding: 5px;
+    font-size: 16px;
+    flex: 1 !important;
+    cursor: default !important;
+    user-select: none;
+}
+
+.dashboardMainPageTableArrow {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    user-select: none;
+}

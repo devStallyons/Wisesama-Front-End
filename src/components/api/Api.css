@@ -1,0 +1,816 @@
+section.api {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.MuiTabs-flexContainer.MuiTabs-flexContainerVertical {
+  width: 100%;
+  background: #1f1f1f;
+  border-radius: 5px;
+  text-align: left !important;
+}
+.MuiTabs-root.MuiTabs-vertical {
+  width: 85%;
+}
+button.MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary.Mui-selected {
+  width: 75% !important;
+  left: 3px;
+  bottom: -2px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 0 !important;
+  justify-content: start !important;
+  padding-left: 20px !important;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  text-transform: capitalize;
+}
+
+.Mui-selected.br_commu {
+  margin-bottom: 73px !important;
+}
+
+.br_commu {
+  margin-bottom: 73px !important;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-transform: capitalize;
+  -webkit-justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.br_act {
+  margin-top: 20px !important;
+}
+
+.br_arri.subitem {
+  margin-right: 50px !important;
+}
+
+.br_cat.subitem {
+  margin-right: 45px !important;
+  padding-left: 0px !important;
+}
+
+.Mui-selected.br_arri.subitem {
+  padding-left: 25px !important;
+}
+
+.Mui-selected.br_cat.subitem {
+  padding-left: 10px !important;
+  margin-left: 5px;
+}
+
+span.MuiTabs-indicator {
+  display: none;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiTab-iconWrapper {
+  height: 18px;
+  width: 18px;
+  left: 0px;
+  top: 3px;
+  border-radius: 0px;
+  color: grey;
+  -webkit-align-items: flex-start;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.subitem {
+  width: 75% !important;
+  left: 20px;
+  bottom: -2px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 0 !important;
+  justify-content: start !important;
+  padding-right: 35px !important;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  flex: none;
+  flex-grow: 0;
+  text-transform: capitalize;
+  order: 1;
+  padding-top: 13px !important;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.subitem {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-transform: capitalize;
+}
+
+.tab-content.MuiBox-root {
+  margin-left: 80px !important;
+  margin: 0;
+  margin-top: -50px !important;
+}
+
+h1.con_mainhead {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+p.con_text {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+  width: 65%;
+  position: relative;
+}
+
+h3.howuse {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+  padding-top: 24px;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+p.infobox {
+  width: 72%;
+  box-sizing: border-box;
+  background: #f9ffff;
+  border: 1px solid #392e74;
+  border-radius: 4px;
+  padding: 14px 0px;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a1a1a;
+  z-index: 1;
+  position: relative;
+}
+
+span.infono {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 8px;
+  width: 40px;
+  background: #392e74;
+  border-radius: 20px;
+  margin-left: 24px;
+  margin-right: 20px;
+  z-index: 1;
+}
+
+.api-components1
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+  background: none;
+  box-shadow: none;
+}
+.api-components2
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1 {
+  background: none;
+  box-shadow: none;
+}
+
+.api-components1 {
+  margin-top: 60px;
+}
+
+h1.comp_head {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+span.head_space {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #8e8e8e;
+  z-index: 1;
+  position: relative;
+  margin-left: 12px;
+}
+
+span.head_space2 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #8e8e8e;
+  z-index: 1;
+  position: relative;
+}
+
+h2.chkcomp_head {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  z-index: 1;
+  position: relative;
+}
+
+p.comp_p {
+  width: 78%;
+  font-style: normal;
+  color: #ffffff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+}
+
+p.comp_p1 {
+  letter-spacing: 0em;
+  text-align: left;
+  width: 78%;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+p.comp_p2 {
+  letter-spacing: 0em;
+  text-align: left;
+  width: 78%;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+img.api_image1 {
+  width: 100%;
+  border-radius: 8px;
+  padding: 40px 30px 40px 30px;
+  background: #ffffff;
+  margin-left: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+h2.copycomp_head {
+  width: 400px;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+  margin-top: -7px;
+}
+
+img.api_image2 {
+  width: 100%;
+  border-radius: 8px;
+  padding: 40px 30px 40px 30px;
+  background: #ffffff;
+  margin-left: -50px;
+}
+
+p.copy_p {
+  width: 85%;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+}
+
+p.copy_p1 {
+  width: 85%;
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+.api-components1 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2 {
+  margin-bottom: 15px !important;
+}
+
+img.api_image3 {
+  width: 100%;
+  border-radius: 8px;
+  padding: 40px 30px 40px 30px;
+  background: #ffffff;
+  margin-left: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+h2.dragcomp_head {
+  width: 400px;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+p.drag_p1 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 92%;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+p.drag_p {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0em;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+}
+
+p.dragbox {
+  width: 92%;
+  background: #f6f7f9;
+  border-radius: 4px;
+  margin: 0;
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a1a1a;
+  top: 4px;
+  position: relative;
+  padding-left: 32px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  z-index: 1;
+  margin-left: -6px;
+  margin-top: 8px;
+  
+}
+
+span.dragbox-icon {
+  margin-left: -30px;
+  margin-right: 10px;
+  position: inherit;
+  top: 5px;
+}
+
+span.dragbox-icon svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  color: #8e8e8e;
+  height: 15px;
+  width: 15px;
+  border-radius: 0px;
+  margin-bottom: 3px;
+}
+
+p.dragsear-text {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8e8e8e;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+  margin-left: 10px;
+}
+
+h1.configcomp_head {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  margin-top: 60px;
+  color: #ffffff;
+}
+
+h2.configcomp_head2 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  z-index: 1;
+  position: relative;
+}
+
+p.configcomp_p {
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80%;
+  font-style: normal;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+p.configcomp_p1 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 83%;
+  font-style: normal;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+img.configsecimg {
+  padding: 60px 60px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-left: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+span.api-gradientbg {
+  height: 527px;
+  width: 527px;
+  left: 950px;
+  top: 135px;
+  border-radius: 0px;
+  position: absolute;
+  right: 21.3%;
+  bottom: 75.83%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+}
+
+span.api-gradientbg2 {
+  height: 465px;
+  width: 465px;
+  border-radius: 0px;
+  position: absolute;
+  left: 25.76%;
+  right: 54.79%;
+  top: 130.5%;
+  bottom: 54.2%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+}
+
+span.api-gradientbg3 {
+  position: absolute;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(95px);
+  height: 500px;
+  width: 500px;
+  left: 614px;
+  top: 1650px;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 352px) and (max-width: 768px) {
+  span.api-gradientbg {
+    height: 300px;
+    width: 300px;
+    left: -70px;
+    top: 268px;
+    border-radius: 0px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+  }
+
+  span.api-gradientbg2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;
+    position: absolute;
+    left: -60px;
+    right: 0%;
+    top: 163.5%;
+    bottom: 54.2%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+  }
+
+  span.api-gradientbg3 {
+    position: absolute;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.5;
+    filter: blur(95px);
+    height: 300px;
+    width: 300px;
+    left: -70px;
+    top: 320%;
+    border-radius: 0px;
+  }
+
+  .api .MuiBox-root {
+    display: block;
+  }
+
+  .MuiTabs-root.MuiTabs-vertical {
+    width: 100%;
+    flex-direction: row;
+    margin-left: 0;
+    display: flex;
+  }
+
+  .api.MuiBox-root {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .MuiTabs-root.MuiTabs-vertical {
+    width: 80%;
+  }
+
+  .MuiTabs-flexContainer.MuiTabs-flexContainerVertical {
+    width: 100%;
+    height: auto;
+    background: #1f1f1f;
+    border-radius: 5px;
+    text-align: left !important;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.br_arri.subitem {
+    padding-top: 32px !important;
+  }
+
+  button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.br_cat.subitem {
+    padding-top: 32px !important;
+}
+
+  button.MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary.Mui-selected {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  button.MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary.Mui-selected {
+    width: 50% !important;
+    padding-left: 20px !important;
+  }
+  .br_commu {
+    margin: 0px !important;
+  }
+  .tab-content.MuiBox-root {
+    margin: 0 !important;
+  }
+
+  p.con_text {
+    width: 80%;
+  }
+
+  p.infobox {
+    width: 95%;
+    height: auto;
+    padding-left: 15px;
+}
+
+  span.infono {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  h1.comp_head {
+    display: block;
+    width: 95%;
+  }
+
+  .api-components1 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2 {
+    display: block;
+  }
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 {
+    max-width: 100%;
+  }
+
+  img.api_image1 {
+    width: 100% !important;
+    height: auto;
+    padding: 0;
+    margin-left: 0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  img.api_image2 {
+    width: 100% !important;
+    height: auto;
+    padding: 0;
+    margin-left: 0px;
+    z-index: 1;
+    position: relative;
+  }
+
+  img.api_image3 {
+    width: 100% !important;
+    height: auto;
+    padding: 0;
+    margin-left: 0px;
+    z-index: 1;
+    position: relative;
+  }
+
+  p.drag_p1 {
+    width: 85%;
+    height: 80px;
+  }
+
+  span.dragbox-icon {
+    top: 5px;
+  }
+
+  span.dragbox-icon svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    left: 24px;
+  }
+
+  p.dragsear-text {
+    margin-left: 4px;
+  }
+
+  h1.configcomp_head {
+    display: block;
+    width: 95%;
+  }
+
+  span.head_space {
+    display: inline-block;
+  }
+
+  .api-components2 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2 {
+    display: block;
+    width: 100%;
+  }
+  span.head_space2 {
+    display: inline;
+  }
+  p.configcomp_p {
+    width: 80%;
+  }
+  p.configcomp_p1 {
+    width: 90%;
+    height: 120px;
+  }
+  img.configsecimg {
+    width: 100%;
+    margin-left: -5px;
+    height: auto;
+    z-index: 1;
+    position: relative;
+  }
+}

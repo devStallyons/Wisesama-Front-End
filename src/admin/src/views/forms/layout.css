@@ -1,0 +1,50 @@
+.balance_input_btn::-webkit-outer-spin-button,
+.balance_input_btn::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+.mz-updateBal {
+    min-width: 400px !important;
+}
+
+
+@media (max-width:420px) {
+    .mz-updateBal {
+        min-width: auto !important;
+        overflow: hidden !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .mz-dashboard .card-body .me-3 svg.icon.icon-custom-size {
+        transform: scale(2);
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .mz-dashboard .card-body .me-3 {
+        padding: 9px 15px 16px 15px !important;
+        margin-right: 0 !important;
+    }
+
+    .mz-updateBal .form-floating {
+        left: 5.5em !important;
+        top: 6px !important;
+    }
+}
+
+.key-icon {
+    object-fit: contain;
+    width: 40px !important;
+    height: 40px !important;
+    transform: scale(1.5);
+}
+
+@media (max-width:400px) {
+    .key-icon {
+        width: 10px !important;
+        height: 20px !important;
+        transform: scale(2.5);
+    }
+}

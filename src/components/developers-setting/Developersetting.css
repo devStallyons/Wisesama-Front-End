@@ -1,0 +1,243 @@
+section.generateapi {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.MuiBox-root.css-rah383 {
+  width: 1180px;
+  height: 400px;
+  background: #141414;
+  border-radius: 20px;
+}
+
+.api-token {
+  width: 85%;
+  background: #141414;
+  border-radius: 20px;
+  margin-left: 70px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 125px;
+}
+
+h1.api_head {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+h2.api_head2 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-left: 120px;
+}
+
+input.token_field {
+  box-sizing: border-box;
+  width: 75%;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  margin-left: 120px;
+  background: none;
+  margin-top: 12px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  padding-left: 22px;
+  font-family: "Clash Display", sans-serif;
+}
+
+input.token_field::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* padding-left: 22px; */
+  color: #818181;
+}
+
+button.genbtn {
+  padding: 13px 38px;
+  position: relative;
+  left: 365px;
+  top: 40px;
+  background: linear-gradient(180deg, #9fff8f -73.33%, #0f6d00 80.97%);
+  border-radius: 5px;
+}
+button.delbtn {
+  padding: 13px 38px;
+  position: relative;
+  left: 365px;
+  top: 40px;
+  background: linear-gradient(180deg, #ff8f8fd8 -73.33%, #a10606 80.97%);
+  border-radius: 5px;
+}
+
+span.genbtn-txt {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+span.apigradient-bg {
+  height: 450px;
+  width: 450px;
+  border-radius: 0px;
+  position: absolute;
+  left: 6.09%;
+  right: 65.36%;
+  top: 26.39%;
+  bottom: 28.77%;
+  background: radial-gradient(81.9% 81.9% at 50% 50%, #8A106F 0%, rgba(69, 16, 138, 0) 100%);
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+
+span.apigradient-bg1 {
+  height: 450px;
+  width: 450px;
+  border-radius: 0px;
+  position: absolute;
+  left: 59.11%;
+  right: 12.34%;
+  top: 25.83%;
+  bottom: 29.32%;
+  background: radial-gradient(81.9% 81.9% at 50% 50%, #45108A 0%, rgba(69, 16, 138, 0) 100%);
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+
+
+@media screen and (min-width: 352px) and (max-width: 767px) {
+ .api-token {
+    width: 100%;
+    background: #141414;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    margin-left: -5px;
+    padding-bottom: 125px;
+}
+
+
+h2.api_head2 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 32px;
+  margin-left: 10px;
+}
+
+input.token_field {
+  box-sizing: border-box;
+  width: 90%;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  margin-left: 10px;
+  background: none;
+  margin-top: 12px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  }
+
+
+input.token_field::placeholder {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 2px;
+  color: #818181;
+}
+
+button.genbtn {
+  height: 45px;
+  left: 50px;
+  background: linear-gradient(180deg, #9fff8f -73.33%, #0f6d00 80.97%);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+span.apigradient-bg {
+  height: 325px;
+  width: 325px;
+  border-radius: 0px;
+  position: absolute;
+  left: -20.91%;
+  right: 0%;
+  top: 26.39%;
+  bottom: 28.77%;
+  background: radial-gradient(81.9% 81.9% at 50% 50%, #8A106F 0%, rgba(69, 16, 138, 0) 100%);
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+
+span.apigradient-bg1 {
+  height: 325px;
+  width: 325px;
+  border-radius: 0px;
+  position: absolute;
+  left: 0%;
+  top: 25.83%;
+  bottom: 29.32%;
+  background: radial-gradient(81.9% 81.9% at 50% 50%, #45108A 0%, rgba(69, 16, 138, 0) 100%);
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  .our-features .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1633um2-MuiPaper-root {
+    justify-content: center;
+}
+
+.api-token {
+    width: 90%;
+    margin-left: 30px;
+}
+
+h2.api_head2 {
+    margin-left: 50px;
+}
+
+input.token_field {
+    margin-left: 50px;
+    width: 85%;
+}
+
+button.genbtn {
+    display: flex;
+    justify-content: center;
+    left: 200px;
+}
+span.apigradient-bg1{
+  left: 0% !important;
+}
+}

@@ -1,0 +1,661 @@
+.sidebar.sidebar-fixed {
+    background: white;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px;
+}
+
+.sidebar-brand {
+    background: black;
+}
+
+.sidebar-toggler {
+    background: transparent;
+}
+
+.bg-light {
+    background: #f7f8fd !important;
+}
+
+.footer {
+    background: transparent;
+    border: 0;
+}
+
+.header-divider {
+    display: none;
+}
+
+.header.header-sticky {
+    background: transparent;
+    padding: 0;
+    border: 0;
+}
+
+.header.header-sticky .container-fluid:nth-child(3) {
+    background: transparent;
+    padding: 20px 25px;
+    border: 0 !important;
+}
+
+.header.header-sticky .container-fluid:nth-child(1) {
+    background: #f7f8fd;
+    padding: 12px;
+}
+
+.sidebar-nav .nav-link {
+    color: #444;
+    position: relative;
+}
+
+.sidebar-nav .nav-link:hover {
+    color: #42b8fe;
+}
+
+.sidebar-nav .nav-link.active, .sidebar-nav .nav-link:hover {
+    background: #f7f8fd;
+}
+
+.sidebar-nav .nav-link {
+    margin-left: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.sidebar-nav .nav-link.active {
+    color: #42b8fe;
+}
+
+.sidebar-nav .nav-link.active svg.nav-icon {
+    color: #42b8fe;
+}
+
+.sidebar-nav .nav-link:before, .sidebar-nav .nav-link:after {
+    transition: .3s;
+}
+
+.sidebar-nav .nav-link.active:before, .sidebar-nav .nav-link:hover:before {
+    top: -20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 7.5px 7.5px 0 7.5px #f7f8fd;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.sidebar-nav .nav-link.active:after, .sidebar-nav .nav-link:hover:after {
+    bottom: -20px;
+    border-top-right-radius: 20px;
+    box-shadow: 7.5px -7.5px 0 7.5px #f7f8fd;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.sidebar-brand img {
+    width: 190px;
+}
+
+.header.header-sticky .container-fluid:nth-child(1):before {
+    content: '';
+    width: 30px;
+    height: 65px;
+    position: absolute;
+    background: #f7f8fd;
+    left: -30px;
+}
+
+html:not([dir=rtl]) .sidebar-nav .nav-icon:first-child {
+    margin: 0 5px 0 0 !important;
+    display: inline-block !important;
+    color: #444;
+    min-width: 10px !important;
+    flex: 0 0 18px;
+}
+
+html:not([dir=rtl]) .sidebar-nav .active .nav-icon:first-child {
+    color:#42b8fe !important;
+}
+
+.mz-widget {
+    border-radius: 25px !important;
+    box-shadow: 0px 9px 18px -3px #d3d3d3 !important;
+    border: 0 !important;
+}
+
+.mz-widget canvas {
+    pointer-events: none;
+}
+
+.mz-widget .btn-group {
+    display: none;
+}
+
+.mz-widget .fs-4 {
+    font-size: 38px !important;
+}
+
+.card-header {
+    border: 0 !important;
+    background: transparent;
+    padding: 25px 25px 14px !important;
+    color: #42b8fe;
+    text-transform: uppercase;
+}
+
+.card {
+    border: 0 !important;
+    border-radius: 25px !important;
+    box-shadow: 0px 7px 25px 0px rgb(0 0 0 / 5%);
+}
+
+.table > :not(caption) > * > * {
+    border: 0 !important;
+    vertical-align: middle;
+}
+
+.table tbody > tr:nth-child(odd) th, .table tbody > tr:nth-child(odd) td {background: #f7f8fd;}
+
+.table tbody td, .table tbody th {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    padding: 15px !important;
+}
+
+.table tbody > tr:nth-child(odd) th:first-child, .table tbody > tr:nth-child(odd) td:first-child {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px;
+}
+
+.table tbody > tr:nth-child(odd) th:last-child, .table tbody > tr:nth-child(odd) td:last-child {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px;
+}
+
+
+.rdt_TableBody .rdt_TableRow:nth-child(odd) .rdt_TableCell {
+    background: #f7f8fd;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    padding: 15px !important;
+}
+
+.rdt_TableBody .rdt_TableRow:nth-child(odd) .rdt_TableCell:first-child {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px;
+}
+
+.rdt_TableBody .rdt_TableRow:nth-child(odd) .rdt_TableCell:last-child {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px;
+}
+
+.btn-primary {
+    background: #42b8fe;
+    border-color: #42b8fe;
+    text-decoration: none !important;
+}
+
+a {color: #42b8fe;    text-decoration: none;}
+
+.card-body {
+    padding: 10px 25px 35px !important;
+}
+
+.form-control {
+    border: 0;
+    background: #eee;
+    padding: 10px 15px !important;
+}
+
+.form-control:focus, .form-control:active {
+    outline: none;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 20%);
+}
+
+.header-nav .dropdown-menu {
+    padding-bottom: 10px;
+    padding-top: 10px !important;
+}
+
+.mz-details .row {border-bottom: 1px solid #ddd;margin: 0;padding: 20px 0 !important;}
+
+.mz-details .row .col-6 {align-items: center !important;}
+
+.mz-details .row .col-6 h6 {
+    margin: 0 !important;
+}
+
+.mz-details .row .col-6 h6:last-child {
+    color: #43b8fe !important;
+}
+
+.mz-details .row:last-child {
+    border: 0 !important;
+}
+
+.mz-supportDetail .card-header {
+    background: transparent !important;
+}
+
+.mz-supportDetail .collapsable-card-body {
+    padding: 20px !important;
+    font-size: 14px !important;
+}
+
+.mz-supportDetail .collapsable-card-body .list-group-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background: transparent !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.mz-supportDetail .collapsable-card-body .list-group-item span.title {
+    color: #43b8fe !important;
+}
+
+.mz-supportDetail .collapsable-card-body .list-group-item:first-child {
+    padding-top: 0 !important;
+}
+
+.mz-supportDetail .sidebar:not(.sidebar-end) {
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.mz-supportDetail .card-footer {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.mz-supportDetail .card-footer button {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    color: white;
+}
+.mz-supportDetail .card-footer .thisisbtn1,
+.mz-supportDetail .card-footer .thisisbtn2 {
+    width: 50% !important;
+    margin-bottom: 20px !important;
+    color: white;
+}
+
+.thisisbtn2{
+    border-radius: 0 5px 5px 0 !important;
+    border-left: 1px solid #fff !important;
+}
+.thisisbtn1{
+    border-right: 1px solid #fff !important;
+    border-radius: 5px 0 0 5px !important;
+}
+
+.mz-supportDetail .collapsable-card-body {
+    padding-bottom: 0 !important;
+}
+
+.mz-supportDetail .primary-content form .card .card-body {
+    padding-bottom: 0 !important;
+}
+
+.mz-SupportTicket h5 {
+    color: #444 !important;
+    font-size: 12px !important;
+    margin-top: 10px !important;
+}
+
+.mz-SupportTicket p {
+    color: #444 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+.mz-SupportTicket p.card-text {
+    font-size: 16px !important;
+    line-height: 28px;
+}
+.mz-SupportTicket .ticketUser_detail {
+    margin-left: 15px !important;
+}
+.ticketUser_detail p {
+    text-transform: lowercase;
+}
+
+.sidebar button.sidebar-toggler.d-none.d-lg-flex {
+    display: none !important;
+}
+
+.support_table tbody tr th, .support_table tbody tr td {
+    cursor: pointer;
+    transition: .4s;
+    padding: 18px 15px !important;
+}
+
+.support_table tbody tr:hover th, .support_table tbody tr:hover td {
+    background: #eee;
+}
+
+.support_table tbody tr th:first-child, .support_table tbody tr td:first-child, .rdt_TableRow .rdt_TableCell:first-child {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px;
+}
+
+.support_table tbody tr th:last-child, .support_table tbody tr td:last-child, .rdt_TableRow .rdt_TableCell:last-child {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px;
+}
+
+.datatable-mainWrapper {
+    position: relative;
+}
+.data-table-extensions {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 9;
+}
+
+.data-table-extensions input {
+    background: #eee;
+    border: 0 !important;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.rdt_TableHeadRow {
+    font-weight: 600;
+    font-size: 1rem !important;
+}
+
+
+
+.rdt_TableCell {
+    border: 0 !important;
+}
+
+.rdt_TableRow {
+    border: 0 !important;
+    background: transparent;
+}
+
+.datatable-mainWrapper .rdt_Table {
+    padding: 0 30px 0px !important;
+    background: transparent !important;
+}
+
+.datatable-mainWrapper .rdt_Pagination {
+    padding: 20px;
+    border: 0 !important;
+    background: transparent;
+}
+
+.datatable-mainWrapper .rdt_TableHeadRow {
+    border: 0 !important;
+    background: transparent !important;
+}
+
+.datatable-mainWrapper > div {
+    background: transparent !important;
+}
+
+.rdt_TableRow .rdt_TableCell {
+    transition: .3s;
+}
+
+.rdt_TableRow:hover .rdt_TableCell {
+    background: #eceef7 !important;
+    cursor: pointer;
+}
+
+.rdt_TableRow:hover {background: transparent !important;border: 0;}
+
+.datatable-mainWrapper > .rdt_TableHeader > div:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #42b8fe;
+    padding: 25px 20px;
+}
+
+.form-check-input:checked {
+    background-color: #43b8fe;
+    border-color: #43b8fe;
+}
+
+.form-switch-xl .form-check-input {
+    width: 45px !important;
+    margin-right: 10px;
+}
+
+.setting_payMethods .row {
+    align-items: center;
+    margin: 10px 0;
+}
+
+.setting_payMethods .row * {
+    margin: 0;
+}
+
+.mz-dashboard .card-body .me-3 {
+    border-radius: 17px !important;
+}
+
+.mz-dashboard .card-body {
+    padding-bottom: 11px !important;
+}
+
+.mz-dashboard .card-body .me-3 svg.icon.icon-custom-size {
+    width: 36px !important;
+    height: 35px;
+    transform: scale(1.3);
+}
+
+.mz-dashboard .card-body .text-primary {
+    font-size: 26px !important;
+    color: #444 !important;
+    font-weight: 400 !important;
+}
+
+.mz-dashboard .card-body .small {
+    color: #43b8fe !important;
+}
+
+.mz-dashboard .card-body .me-3 {
+    background: linear-gradient(0deg,#40b6ff,#01ecf8) !important;
+}
+
+.react-datepicker__input-container input {
+    background: #fff;
+    border: 0 !important;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 100% !important;
+}
+
+.react-datepicker__input-container:after {
+    content: '';
+    background: url(https://cdn-icons-png.flaticon.com/512/747/747310.png);
+    width:20px;
+    height: 20px;
+    background-position:center;
+    background-size:contain;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    opacity: 0.5;
+}
+
+.mz-dropdown .dropdown-toggle:after {
+    display: none;
+}
+
+.mz-dropdown .dropdown-toggle svg {
+    transform: scale(1.3) rotate(90deg) translateX(-1px);
+}
+
+.mz-users-actions .btn-group {
+    width: 100% !important;
+}
+
+.mz-updateBal .form-floating {
+    position: absolute;
+    top: 18px;
+    left: 7.6em;
+    width: 125px;
+}
+
+.mz-updateBal {
+    position: relative;
+}
+
+.mz-updateBal .text-medium-emphasis {
+    position: absolute;
+    right: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.mz-updateBal .form-floating > .form-control:focus ~ label {
+    margin: 0;
+    transform: scale(0.85) translateY(0.3rem) translateX(9.1rem);
+}
+
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    opacity: 0;
+}
+
+.mz-users-actions button:nth-child(2) {
+    opacity: 0.9;
+}
+
+.mz-users-actions button:nth-child(3) {
+    opacity: 0.8;
+}
+
+.link_toRespond {
+    position: absolute;
+    right: 17em;
+    top: 1.22em;
+    border-radius: 30px;
+    padding: 9px 30px;
+    z-index: 1;
+}
+
+@media only screen and (max-width:767px){
+
+    .mz-updateBal .text-medium-emphasis {
+        font-size: 15px !important;
+    }
+    .mz-dashboard h2 {
+        margin-bottom: 20px !important;
+    }
+    .setting_payMethods .col-9, .setting_payMethods .col-2 {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .setting_payMethods .col-9, .setting_payMethods .col-2, .setting_payMethods .col-12 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .setting_payMethods .col-9 {
+        margin-right: 8% !important;
+    }
+    .mz-dashboard .col-sm-3.col-12.text-right {
+        margin-bottom: 20px !important;
+    }
+    .link_toRespond {
+        position: relative;
+        top: auto;
+        right: auto;
+        order: 10;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 15px !important;
+    }
+    
+    .datatable-mainWrapper  .data-table-extensions {
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    
+    .datatable-mainWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .datatable-mainWrapper .rdt_TableHeader {
+        order: -1;
+    }
+    .datatable-mainWrapper .data-table-extensions input.filter-text {
+        width: 91% !important;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+    
+    .sidebar.sidebar-fixed {
+        top: 0 !important;
+    }
+    
+    .sidebar-nav .nav-item:first-child .nav-link.active {
+        border-top-right-radius: 20px !important;
+    }
+    
+    .sidebar-nav .nav-item:first-child .nav-link.active:before {
+        display: none;
+    }
+
+    .card-body {
+        overflow-x: auto;
+    }
+    .mz-details .row .col-6 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        padding: 20px !important;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .mz-details .row {border: 0 !important;padding: 0 !important;}
+    
+    .mz-details .row:last-child .col-6:last-child {
+        border-bottom: 0 !important;
+    }
+
+    .mz-supportDetail .sidebar:not(.sidebar-end) {
+        position: relative !important;
+        margin: 0 !important;
+        z-index: 0;
+    }
+
+
+    .mz-SupportTicket .ticket-date h6 {
+        font-size: 12px !important;
+    }
+
+    .mz-SupportTicket .ticket-date {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .mz-supportDetail .card-header {
+        padding-top: 45px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .card-body {
+        overflow-x: auto;
+    }
+}

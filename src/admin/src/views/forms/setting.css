@@ -1,0 +1,13 @@
+.editorClassName {
+    background: #eeeeee;
+    border-radius: 0 0 7px 7px;
+    margin-top: -6px;
+    min-height: 150px;
+    cursor: text;
+}
+
+.editorClassName:focus-within {
+    background: #fff;
+    transition: .1s;
+    border: 1px solid #eeeeee;
+}

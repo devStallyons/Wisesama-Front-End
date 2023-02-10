@@ -1,0 +1,192 @@
+.my_datepicker {
+    width: 250px;
+    margin: 20px;
+    background: #eeeeee;
+    align-self: flex-end;
+    border-radius: 25px;
+    margin-top: 19px;
+    margin-right: 245px;
+}
+
+.react-datepicker__input-container input {
+    background: #eeeeee !important;
+    outline: none !important;
+    border: none !important;
+    /* border: 2px solid black !important; */
+}
+
+.mainReferralLinksContainer {
+    background: #fff !important;
+    padding: 10px;
+    position: relative;
+
+}
+
+.mainReferralLinksContainer .ReferralLinkCreateIconBox {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mainReferralLinksContainer .ReferralLinkCreateIconBox .me-2 {
+    color: #42b8fe;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.ReferenceLinksInputs {
+    border: 1px solid #ced4da;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ReferenceLinksInputs:focus-within {
+    border-color: #42b8fe !important;
+    outline: none !important;
+    transition: .2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .my_datepicker {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        padding-right: 5vw;
+    }
+}
+
+.datatable-mainWrapper>div:nth-child(4) {
+    overflow: visible !important;
+    z-index: 99 !important;
+}
+
+@media only screen and (max-width:768px) {
+    .datatable-mainWrapper>div:nth-child(4) {
+        overflow: auto !important;
+    }
+}
+
+
+.dashboardMainPageTable {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.dashboardMainPageTable table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5px 20px 5px;
+}
+
+.dashboardMainPageTable table thead,
+.dashboardMainPageTable table tbody,
+.dashboardMainPageTable table tfoot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardMainPageTable table thead tr,
+.dashboardMainPageTable table tbody tr {
+    transition: 0.2s ease-in-out !important;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.dashboardMainPageTable table tbody tr:nth-child(even) {
+    background: #f7f8fd;
+    padding: 10px 5px;
+}
+
+.dashboardMainPageTable table tbody tr:hover {
+    background: #eceef7;
+}
+
+.dashboardMainPageTable table thead tr th,
+.dashboardMainPageTable table tbody tr td {
+    /* border: 1px solid #dedfe3; */
+    padding: 5px;
+    font-size: 16px;
+    flex: 1;
+    cursor: default !important;
+    user-select: auto !important;
+}
+
+.dashboardMainPageTable table thead tr th:nth-child(1),
+.dashboardMainPageTable table tbody tr td:nth-child(1) {
+    flex: 3 !important;
+}
+
+.dashboardMainPageTableArrow {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.dashboardMainPageTable table tbody tr .cursorPointer {
+    cursor: pointer !important;
+}
+
+@media (max-width: 510px) {
+    .dafasdfsdaf {
+        overflow: auto;
+    }
+
+    .mainReferralLinksContainer {
+        width: 160%;
+    }
+}
+
+
+
+
+
+
+
+span.LinkCountsSpan {
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 8px 10px 0px rgb(210 210 210);
+    border-radius: 50%;
+    width: 65px;
+    display: inline-block;
+    text-align: center;
+    height: 62px;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    position: relative;
+    font-size: 22px;
+}
+
+span.LinkCountsSpan:after {
+    content: '';
+    /* / background: black; / */
+    position: absolute;
+    border-style: solid;
+    border-width: 7px;
+    border-color: white white #ff000000 #ff000000;
+    transform: rotate(45deg);
+    right: -5px;
+    box-shadow: 9px -3px 8px 0px rgb(0 0 0 / 17%);
+}
+
+.yearSortingDropdown button {
+    background: transparent !important;
+    color: black !important;
+    border: none !important;
+}

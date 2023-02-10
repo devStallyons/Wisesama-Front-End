@@ -1,0 +1,146 @@
+section.reportssucess {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img.rep-sucess {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.sucessimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p.sucessmsg {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 70px;
+  z-index: 1;
+  position: relative;
+}
+
+p.backtohome {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #ea85fe;
+  text-align: center;
+  margin-top: 24px;
+  z-index: 1;
+  position: relative;
+}
+
+.backtohome a {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #EA85FE;
+}
+
+.sucessgradient-bg {
+  position: absolute;
+  left: 14.69%;
+  top: 28.09%;
+  bottom: 41.07%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #8a106f 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+  height: 548.0000079298356px;
+  width: 548.0000079298356px;
+  left: 240.585205px;
+  top: 210.585205px;
+  border-radius: 0px;
+}
+
+.sucessgradient-bg2 {
+  position: absolute;
+  left: 51.2%;
+  right: 25.26%;
+  top: 20.64%;
+  bottom: -64.49%;
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+  height: 548.0000079298356px;
+  width: 548.0000079298356px;
+  left: 785.057129px;
+  top: 205.660339px;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 352px) and (max-width: 768px) {
+  .sucessgradient-bg {
+    position: absolute;
+    top: 40.09%;
+    bottom: 41.07%;
+    background: radial-gradient( 81.9% 81.9% at 50% 50%, #8a106f 0%, rgba(69, 16, 138, 0) 100% );
+    opacity: 0.4;
+    filter: blur(95px);
+    transform: rotate(-17.33deg);
+    height: 250px;
+    width: 250px;
+    left: 0;
+    border-radius: 0px;
+  }
+
+  .sucessgradient-bg2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    bottom: -70.49%;
+    background: radial-gradient( 81.9% 81.9% at 50% 50%, #45108a 0%, rgba(69, 16, 138, 0) 100% );
+    opacity: 0.4;
+    filter: blur(95px);
+    transform: rotate(-17.33deg);
+    height: 350px;
+    width: 350px;
+    border-radius: 0px;
+}
+.sucessimg {
+  display: block;
+  margin-left: -25px;
+  width: 100%;
+}
+.sucesstxt p.sucessmsg {
+  text-align: start !important;
+}
+.sucesstxt p.backtohome {
+  text-align: start;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  .sucesstxt p.sucessmsg {
+    text-align: center !important;
+  }
+  p.backtohome {
+    text-align: center !important;
+  }
+}

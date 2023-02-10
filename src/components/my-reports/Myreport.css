@@ -1,0 +1,173 @@
+section.myreports {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.lastrep_token {
+  margin-top: 30px !important;
+}
+.myreports_head {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 50px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.myreports_p {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.myreports_p2 {
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.myreports .MuiGrid2-root.MuiGrid2-container.MuiGrid2-direction-xs-row {
+  padding: 0 !important;
+}
+
+.myreport_now {
+  font-family: 'Clash Display';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  text-decoration-line: underline;
+  color: #ea85fe;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 49px;
+  position: relative;
+  z-index: 1;
+}
+
+.myreport_now a {
+  color: #ea85fe;
+}
+
+.myreport-gradient {
+  height: 548.0000079298356px;
+  width: 548.0000079298356px;
+  left: 137px;
+  top: 352.44903564453125px;
+  border-radius: 0px;
+
+  position: absolute;
+  left: 7.14%;
+  right: 64.32%;
+  top: 25.09%;
+  bottom: 35.91%;
+
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #8a106f 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+
+.myreport-gradient2 {
+  height: 548.0000079298356px;
+  width: 548.0000079298356px;
+  left: 1125px;
+  top: 515.6603393554688px;
+  border-radius: 0px;
+
+  position: absolute;
+  left: 58.59%;
+  right: 12.86%;
+  top: 36.7%;
+  bottom: 24.29%;
+
+  background: radial-gradient(
+    81.9% 81.9% at 50% 50%,
+    #45108a 0%,
+    rgba(69, 16, 138, 0) 100%
+  );
+  opacity: 0.4;
+  filter: blur(95px);
+  transform: rotate(-17.33deg);
+}
+
+@media screen and (min-width: 352px) and (max-width: 768px) {
+  .myreport_img {
+    margin-top: -85px;
+  }
+  .myreports
+    .myreport_img
+    .MuiGrid2-root.MuiGrid2-direction-xs-row.MuiGrid2-grid-xs-4 {
+    width: 100% !important;
+    margin-top: 80px;
+  }
+
+  .myreport_frame {
+    width: 100% !important;
+    z-index: 1;
+    position: relative;
+  }
+
+  .myreport-gradient {
+    height: 320px;
+    width: 320px;
+    top: 352.44903564453125px;
+    border-radius: 0px;
+    position: absolute;
+    top: 58.09%;
+    bottom: 35.91%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #8a106f 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.4;
+    filter: blur(95px);
+    transform: rotate(-17.33deg);
+  }
+
+  .myreport-gradient2 {
+    height: 320px;
+    width: 320px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 74%;
+    bottom: 24.29%;
+    background: radial-gradient(
+      81.9% 81.9% at 50% 50%,
+      #45108a 0%,
+      rgba(69, 16, 138, 0) 100%
+    );
+    opacity: 0.4;
+    filter: blur(95px);
+    transform: rotate(-17.33deg);
+  }
+}
